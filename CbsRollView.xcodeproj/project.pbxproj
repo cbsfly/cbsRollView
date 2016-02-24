@@ -15,6 +15,8 @@
 		C3B38C591C7DD6FD00AE0C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B38C571C7DD6FD00AE0C5B /* LaunchScreen.storyboard */; };
 		C3B38C641C7DD6FD00AE0C5B /* CbsRollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B38C631C7DD6FD00AE0C5B /* CbsRollViewTests.m */; };
 		C3B38C6F1C7DD6FD00AE0C5B /* CbsRollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B38C6E1C7DD6FD00AE0C5B /* CbsRollViewUITests.m */; };
+		C3B38C7F1C7DD90C00AE0C5B /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B38C7E1C7DD90C00AE0C5B /* RollView.m */; };
+		C3B38C821C7DDCF200AE0C5B /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B38C811C7DDCF200AE0C5B /* ShowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C3B38C6A1C7DD6FD00AE0C5B /* CbsRollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CbsRollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B38C6E1C7DD6FD00AE0C5B /* CbsRollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CbsRollViewUITests.m; sourceTree = "<group>"; };
 		C3B38C701C7DD6FD00AE0C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B38C7D1C7DD90C00AE0C5B /* RollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
+		C3B38C7E1C7DD90C00AE0C5B /* RollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollView.m; sourceTree = "<group>"; };
+		C3B38C801C7DDCF200AE0C5B /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		C3B38C811C7DDCF200AE0C5B /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		C3B38C481C7DD6FD00AE0C5B /* CbsRollView */ = {
 			isa = PBXGroup;
 			children = (
+				C3B38C7C1C7DD8CD00AE0C5B /* rollview */,
 				C3B38C4C1C7DD6FD00AE0C5B /* AppDelegate.h */,
 				C3B38C4D1C7DD6FD00AE0C5B /* AppDelegate.m */,
 				C3B38C4F1C7DD6FD00AE0C5B /* ViewController.h */,
@@ -138,6 +145,17 @@
 				C3B38C701C7DD6FD00AE0C5B /* Info.plist */,
 			);
 			path = CbsRollViewUITests;
+			sourceTree = "<group>";
+		};
+		C3B38C7C1C7DD8CD00AE0C5B /* rollview */ = {
+			isa = PBXGroup;
+			children = (
+				C3B38C7D1C7DD90C00AE0C5B /* RollView.h */,
+				C3B38C7E1C7DD90C00AE0C5B /* RollView.m */,
+				C3B38C801C7DDCF200AE0C5B /* ShowViewController.h */,
+				C3B38C811C7DDCF200AE0C5B /* ShowViewController.m */,
+			);
+			path = rollview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B38C511C7DD6FD00AE0C5B /* ViewController.m in Sources */,
+				C3B38C821C7DDCF200AE0C5B /* ShowViewController.m in Sources */,
+				C3B38C7F1C7DD90C00AE0C5B /* RollView.m in Sources */,
 				C3B38C4E1C7DD6FD00AE0C5B /* AppDelegate.m in Sources */,
 				C3B38C4B1C7DD6FD00AE0C5B /* main.m in Sources */,
 			);
